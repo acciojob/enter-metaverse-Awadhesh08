@@ -1,12 +1,17 @@
 //your JS code here. If required.
-const button = document.getElementById("enterBtn");
-const para = document.getElementById("status");
+const status = document.getElementById('status');
+const enterBtn = document.getElementById('enterBtn');
+enterBtn.addEventListener('click', ()=>{
+	status.innetHtml = "<h1>Entered Metaverse</h1>"
+});
 
-button.addEventListener("click", ()=>{
-	let h1 = document.createElement("h1");
-	h1.id = "status";
-	h1.innerText = "Entered Metaverse";
-	para.parentNode.replaceChild(h1, para); 
-	// document.body.insertBefore(h1,para);
-	para.remove();
-})
+
+
+
+
+// let h1 = document.createElement("h1");
+	// h1.id = "status";
+	// h1.innerText = "Entered Metaverse";
+	// para.parentNode.replaceChild(h1, para); 
+	// // document.body.insertBefore(h1,para);
+	// para.remove();
