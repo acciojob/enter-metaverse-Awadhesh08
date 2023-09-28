@@ -3,7 +3,7 @@ const status = document.getElementById('status');
 const enterBtn = document.getElementById('enterBtn');
 
 enterBtn.addEventListener('click', ()=>{
-	status.innerHtml = "<h1>Entered Metaverse</h1>"
+	status.innerHTML = "<h1>Entered Metaverse</h1>";
 });
 
 
